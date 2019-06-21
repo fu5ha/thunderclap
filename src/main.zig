@@ -1,5 +1,6 @@
 const std = @import("std");
+const c = @import("c.zig");
 
 pub fn main() anyerror!void {
-    std.debug.warn("All your base are belong to us.\n");
+    
 }
