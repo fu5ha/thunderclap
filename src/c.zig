@@ -1,4 +1,4 @@
-@cImport({
+pub use @cImport({
     @cInclude("stb_image.h"); 
-    @cInclude("cglm/cglm.h")
-})
+    @cInclude("cglm/cglm.h");
+});
